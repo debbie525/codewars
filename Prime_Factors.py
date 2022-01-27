@@ -10,7 +10,7 @@ number = int(input("Enter a number to factor (positive integer only): "))
 factor_list =[]
 
 for factor in range(2,number):  # not included in items to check: 1 and the number itself
-    if number%factor==0:
+    if number % factor==0:
         factor_list.append(factor)
     else:
         continue
