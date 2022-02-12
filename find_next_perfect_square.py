@@ -11,7 +11,6 @@
 
 from math import sqrt
 
-
 def find_next_square(input):
     answer = sqrt(input)
     next_perfect_square = False
