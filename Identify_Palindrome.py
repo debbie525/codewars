@@ -1,8 +1,9 @@
 
 # Write a function to determine if a given string is a palindrome
-# Palindrome - a word, phrase, or sequence 
+# Palindrome - a word, phrase, or sequence other sequence of characters which reads the same backward as forward
+# example: madam, level, racecar
 
-word = "madam"
+
 
 def check_palindrome_1(word):
     word_list = []
@@ -29,5 +30,5 @@ def check_palindrome_2(word):
     
 
 
-check_palindrome_2(word="level")
+check_palindrome_2(word="racecar")
 
