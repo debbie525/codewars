@@ -10,11 +10,14 @@
 # 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 
 def digital_root(number):
-    sum=0
+    
+    sum = 0
     for digit in str(number):
-        sum+=int(digit)
-    if len(str(sum))>1:
+        sum += int(digit)
+
+    if len(str(sum)) > 1:
         digital_root(sum)
+
     else:
         print(sum)
 
