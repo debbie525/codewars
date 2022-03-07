@@ -18,9 +18,9 @@ def split_string(input_string):
             splitted_string.append(string_set)
             string_set=""             # re-initialize the value
 
-        # if length of string is odd and iteration at last item
+        # if length of input string is odd and iteration at last item
         if len(input_string)%2!=0 and count ==len(input_string):
-            string_set = input_string[-1] + "_"
+            string_set = input_string[-1] + "_"  # last character plus "_"
             splitted_string.append(string_set)
 
     return splitted_string
