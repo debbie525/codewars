@@ -31,7 +31,6 @@ for count in range(1, len(str(input_digits))+1):
         input_digits_list.remove(input_digits_list[0])
    
         
-
 print(comparison_number)
        
     
